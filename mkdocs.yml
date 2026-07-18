@@ -1,0 +1,97 @@
+site_name: Knowledge Base
+site_description: Personal technical knowledge base — architecture, Java, Spring, databases, Docker, Git
+repo_url: https://github.com/<your-username>/knowledge-base
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - footnotes
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Software Architecture:
+  #     - software-architecture/index.md
+  #     - API Design: software-architecture/api.md
+  #     - REST: software-architecture/rest.md
+  #     - GraphQL: software-architecture/graphql.md
+  #     - gRPC: software-architecture/grpc.md
+  #     - Microservices: software-architecture/microservices.md
+  #     - Event-Driven Architecture: software-architecture/event-driven.md
+  # - Java:
+  #     - java/index.md
+  #     - Collections: java/collections.md
+  #     - Concurrency: java/concurrency.md
+  #     - JVM: java/jvm.md
+  # - Spring:
+  #     - spring/index.md
+  #     - Core & DI: spring/core.md
+  #     - Spring Boot: spring/boot.md
+  #     - Spring Data: spring/data.md
+  #     - Spring Security: spring/security.md
+  # - Database:
+  #     - database/index.md
+  #     - SQL: database/sql.md
+  #     - NoSQL: database/nosql.md
+  #     - Indexing: database/indexing.md
+  #     - Transactions: database/transactions.md
+  # - Docker:
+  #     - docker/index.md
+  #     - Images: docker/images.md
+  #     - Containers: docker/containers.md
+  #     - Compose: docker/compose.md
+  #     - Networking: docker/networking.md
+  # - Git:
+  #     - git/index.md
+  #     - Branching: git/branching.md
+  #     - Workflows: git/workflows.md
+  #     - Commands: git/commands.md
