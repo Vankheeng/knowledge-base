@@ -60,13 +60,13 @@ plugins:
 nav:
   - Home: index.md
   - Software Architecture:
-  #     - software-architecture/index.md
-  #     - API Design: software-architecture/api.md
-  #     - REST: software-architecture/rest.md
-  #     - GraphQL: software-architecture/graphql.md
-  #     - gRPC: software-architecture/grpc.md
-  #     - Microservices: software-architecture/microservices.md
-  #     - Event-Driven Architecture: software-architecture/event-driven.md
+      - software-architecture/index.md
+      - API Design: software-architecture/api.md
+      - REST: software-architecture/rest.md
+      - GraphQL: software-architecture/graphql.md
+      - gRPC: software-architecture/grpc.md
+      - Microservices: software-architecture/microservices.md
+      - Event-Driven Architecture: software-architecture/event-driven.md
   # - Java:
   #     - java/index.md
   #     - Collections: java/collections.md
