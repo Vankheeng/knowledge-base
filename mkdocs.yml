@@ -69,6 +69,8 @@ nav:
       - Event-Driven Architecture: software-architecture/event-driven.md
       - Load balance: software-architecture/load-balance.md
       - Message-broker: software-architecture/message-broker.md
+      - API gateway: software-architecture/api-gateway.md
+
   # - Java:
   #     - java/index.md
   #     - Collections: java/collections.md
