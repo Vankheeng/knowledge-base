@@ -68,6 +68,7 @@ nav:
       - Microservices: software-architecture/microservices.md
       - Event-Driven Architecture: software-architecture/event-driven.md
       - Load balance: software-architecture/load-balance.md
+      - Message-broker: software-architecture/message-broker.md
   # - Java:
   #     - java/index.md
   #     - Collections: java/collections.md
