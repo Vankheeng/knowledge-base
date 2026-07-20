@@ -67,6 +67,7 @@ nav:
       - gRPC: software-architecture/grpc.md
       - Microservices: software-architecture/microservices.md
       - Event-Driven Architecture: software-architecture/event-driven.md
+      - Load balance: software-architecture/load-balance.md
   # - Java:
   #     - java/index.md
   #     - Collections: java/collections.md
