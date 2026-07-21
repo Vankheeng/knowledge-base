@@ -70,6 +70,7 @@ nav:
       - Load balance: software-architecture/load-balance.md
       - Message-broker: software-architecture/message-broker.md
       - API gateway: software-architecture/api-gateway.md
+      - CDN: software-architecture/CDN.md
 
   # - Java:
   #     - java/index.md
