@@ -65,12 +65,21 @@ nav:
       - REST: software-architecture/rest.md
       - GraphQL: software-architecture/graphql.md
       - gRPC: software-architecture/grpc.md
-      - Microservices: software-architecture/microservices.md
-      - Event-Driven Architecture: software-architecture/event-driven.md
+
       - Load balance: software-architecture/load-balance.md
       - Message-broker: software-architecture/message-broker.md
       - API gateway: software-architecture/api-gateway.md
       - CDN: software-architecture/CDN.md
+
+      - Relational database: software-architecture/relational-database.md
+      - Non-relational database: software-architecture/non-relational-database.md
+      - Techniques to improve performance availability, scalability of db: software-architecture/techniques-to-improve-performance-availability-scalability-of-db.md
+      - CAP theorem: software-architecture/CAP-theorem.md
+      - Unstructured-data-storage: software-architecture/Unstructured-data-storage.md
+
+      - Microservices: software-architecture/microservices.md
+      - Event-Driven Architecture: software-architecture/event-driven.md
+
 
   # - Java:
   #     - java/index.md
